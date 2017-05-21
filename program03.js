@@ -10,4 +10,4 @@ app.get('/home', function(req, res) {
     res.render('index', {date: new Date().toDateString()});
 });
 
-app.listen(port);
+app.listen(3000);

@@ -10,4 +10,4 @@ app.put('/message/:id', function(req, res) {
     res.send(str);
 });
 
-app.listen(process.argv[2] || 3000);
+app.listen(8080);
